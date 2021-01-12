@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@100&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -15,7 +16,7 @@
     <div class="contenedor">
         <h1 class="titulo"> Contenido del sitio</h1>
         <a href="cerrar.php">Cerrar Sesion</a>
-
+        <hr class="border">
         <div class="contenido">
             <article>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veritatis commodi accusantium
