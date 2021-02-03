@@ -1,31 +1,39 @@
+// var nombre = 'Carlos';
+// var edad = 23;
+// var pais = 'Mexico';
 
-    var karla = {
-        "nombre": 'Karla Gonzalez',
-        "edad": 23 ,
-        "pais": "Mexico"
-    }
+// var nombre2 = 'Alejandro';
+// var edad2 = 30;
+// var pais2 = 'España';
 
-    var pedro = {
-        "nombre": 'Pedro Obregon',
-        "edad": 31 ,
-        "pais": "Colombia"
-    }
+// Ejemplo de un Objeto
+var carlos = {
+	"nombre": "Carlos Arturo",
+	"edad": 23,
+	"pais": "Mexico"
+}
 
-    //ARREGLOS
-    var nombreAmigos = ['Alejando', 'Manuel']
+var alejandro = {
+	"nombre": "Alejandro",
+	"edad": 30,
+	"pais": "España"
+}
 
-    [
-        {
-            "nombre": "Alejandro",
-            "edad": 24,
-            "pais": "España"
-        }, 
-        {
-            "nombre": "Manuel",
-            "edad": 30,
-            "pais": "Colombia"
-        }
-    ]
-    
+// Ejemplo de Arreglo
+var nombreAmigos = ['Alejandro', 'Manuel'];
 
-    console.log(nombreAmigos[1]);
+// Ejemplo de JSON
+var amigos = [
+	{
+		"nombre": "Alejandro",
+		"edad": 24,
+		"pais": "España"
+	},
+	{
+		"nombre": "Manuel",
+		"edad": 30,
+		"pais": "Colombia"
+	}
+];
+
+console.log(amigos[0].pais);
